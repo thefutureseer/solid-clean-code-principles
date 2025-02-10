@@ -1,3 +1,4 @@
+#PYTHON CODE
 #BAD not single use class..
 class Robot:
   def settings(self):

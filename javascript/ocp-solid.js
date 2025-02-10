@@ -154,47 +154,21 @@ square.draw();
 // Area of square: 36
 
 
-
-// Java code:
-// abstract class Shape {
-//   abstract void draw();
-// }
-
-// class Circle extends Shape {
-//   void draw() { System.out.println("Drawing Circle"); }
-// }
-
-// class Rectangle extends Shape {
-//   void draw() { System.out.println("Drawing Rectangle"); }
-// }
-
-
-
-
 //BAD Example 
 // JavaScript code:
 //Requires modification
 //Too many different functions in one class
 //Using a string this way is not good for scaling
-class Shape {
- draw(builtInShape) {
-  if(builtInShape === "circle") {
-    console.log("cirlcle");
-  } else if(builtInShape === "rectangle") {
-    console.log("rectangle");
-  } else if(builtInShape === "square") {
-    console.log("square")
-  } else {
-    console.log("unknown class")
-  }
- }
-}
-
-
-// Java Code: 
 // class Shape {
-//   void draw() {
-//       System.out.println("Drawing shape");
+//  draw(builtInShape) {
+//   if(builtInShape === "circle") {
+//     console.log("cirlcle");
+//   } else if(builtInShape === "rectangle") {
+//     console.log("rectangle");
+//   } else if(builtInShape === "square") {
+//     console.log("square")
+//   } else {
+//     console.log("unknown class")
 //   }
-// }
-
+//  }
+// };

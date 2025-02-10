@@ -1,4 +1,5 @@
 # SOLID Clean Code Principles
+## Examples in Javascript and Python
 
 ## Introduction
 The **SOLID** principles are five fundamental design principles in **object-oriented programming (OOP)** that help create more maintainable, scalable, and flexible software. Following these principles improves code readability, reduces tight coupling, and makes software easier to extend and maintain.
