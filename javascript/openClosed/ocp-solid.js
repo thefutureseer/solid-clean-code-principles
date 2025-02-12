@@ -172,3 +172,15 @@ square.draw();
 //   }
 //  }
 // };
+
+var iceCreamFlavor = ["choc", "vanil"];
+var iceCreamMaker = {
+  makeIceCream(flavor){
+    if(iceCreamFlavors.indexOf(flavor) > -1){
+      console.log("success")
+    } else {
+      console.log("failed ")
+    }
+  }
+
+}
